@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Kids Coding Website</title>
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="#Services-section"><i class="fa fa-fw fa-globe"></i>Coding Platforms</a>
+    <a href="#Contact-section"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+    <a href="#About-section"><i class="fa fa-fw fa-address-card"></i>About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <!-- Carousel -->
+  <div id="HomeImg" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#HomeImg" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#HomeImg" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#HomeImg" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/coadingbg.jpg" alt="Business Consultancy" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h1>Get your kids coding in no time!</h1>
+          <p>Code is the universal language of the future and as with learning any language, the earlier you start,
+            the easier it is to learn it. Even if you’re not experienced with coding yourself, there’s no good reason 
+            not to get your kids started on the path to learning to code with the abundance of free resources available 
+            today – you might even learn a little coding yourself along the way!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/codingbg2.png" alt="Project Management Consultancy" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/codingbg3.png" alt="Research & Development Services" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          
+        </div>
+      </div>
+    </div>
+
+     <div class="container Google-form__container">
+        <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfrMq3xHFYRL6DaLJohj97jcmBnY27drJMb2XgiMkZ_G05e4w/viewform">Free Bootcamp</a>
+    </div>
+
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#HomeImg" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#HomeImg" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+
+
+  <!-- Services section -->
+
+  <section id="Services-section" class="Services">
+    <h1>Coding Platforms</h1>
+    <div class="container Services__container">
+      <article class="service">
+        <h3> Code.org</h3>
+        <img class="second" src="./images/Code.org.png">
+
+        <p>Code.org is a nonprofit with a catalog of courses they've designed, and some from 3rd party partners as well,
+             to help guide students in grades K-12 on their coding path.</p>
+      </article>
+
+      <article class="service">
+        <h3>Scratch</h3>
+        <img class="second" src="./images/Scratch.jpg">
+
+        <p>Scratch is a platform designed by MIT that is a great way for children to learn coding. It's a free programming language and
+            online community where you can create your own interactive stories, games, and animations.</p>
+      </article>
+
+      <article class="service">
+        <h3> W3Schools</h3>
+        <img class="second" src="./images/W3Schools.jpg">
+
+        <p>W3Schools is a freemium educational website for learning coding online. For students in middle school and high school,
+             W3Schools is a great resource for coding tutorials in multiple languages..</p>
+      </article>
+
+      <article class="service">
+        <h3>Codingal</h3>
+        <img class="second" src="./images/Codingal.png">
+
+        <p>Codingal is a community-driven mobile and web-based platform for kids to learn to code together..</p>
+      </article>
+
+      <article class="service">
+        <h3>CodeAvengers</h3>
+        <img class="second" src="./images/CodeAvengers.jpg">
+
+        <p>Code Avengers is one of the best online coding platforms that involve mathematics, logical operations and intellectual ways to create new programs..</p>
+      </article>
+
+      <article class="service">
+        <h3>Blockly </h3>
+        <img class="second" src="./images/Blockly.jpg">
+
+        <p>Blockly teaches programming through puzzles and block games. Kids can create their own stories by clicking and dragging different blocks and solve problems..</p>
+      </article>
+    </div>
+  </section>
+  <!-- Services section ends -->
+
+  <!-- About section -->
+
+  <section id="About-section" class="About-us">
+    <hr>
+    <div class="container About-us__container">
+
+      <div class="About">
+        <img class="Third" src="./images/timeline1.png">
+        <div class="About-caption">
+          <h3>About-us</h3>
+
+          <p>We offer educational resources for students of different grades and experience levels.Our successes come from our
+            good relations with clients, regional partners, employees and local communities.With our teacher kit and
+             support team, anyone can learn the basics of coding.Courses contain text-based coding so students learn to program
+            like a real developer.Kids learn coding in an engaging and rewarding environment that utilizes rewards.Whether you are 
+            just starting or are ready for advanced courses, our free webinars, video tutorials, and bootcamps
+            will guide you every step of the way. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- About section ends-->
+
+ <!-- Contact section -->
+
+<section id="Contact-section" class=" Contact-us">
+  <div class="container Contact-us__container">
+    <div class="Contact-me">
+          <h2>We’d love to hear from you</h2>
+          <h4>Whether you’re curious about features, a free trial, or even press—we’re ready to answer any and all questions.</h4>
+          <p class="contact-message">Talk with an advisor to create a customized inbound Network program that blends proven strategy with tactical instruction and guarantees results..</p>
+          <a class="btn" href="mailto:nikitamane4699@gmail.com">CONTACT US</a>
+        </div>
+      </div>
+  </div>
+</section>
+
+  <!-- Contact section ends-->
+
+
+
+  <!-- footer section starts-->
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/company/suvidha-foundation">LinkedIn</a>
+    <a class="footer-link" href="https://instagram.com/suvidha_mahila_mandal?igshid=YmMyMTA2M2Y=">Instagram</a>
+    <a class="footer-link" href="https://www.facebook.com/Suvidha-Foundation-Edutech-106062275023615/?ti=as">Facebook</a>
+    <p class="copyright">© Suvidha-Foundation-Edutech 2022.</p>
+  </div>
+
+  <!-- footer section ends-->
+
+</body>
+
+</html>
